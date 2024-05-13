@@ -1,0 +1,13 @@
+<%- include('partials/header'); -%>
+
+<body>
+
+    <div class="details content">
+        <h2><%= course.name %></h2>
+        <div class="content">
+            <p>Credit Hours: <%= course.creditHours %></p>
+            <p>Area of Study: <%= course.subjectArea %></p>
+            <p>Course Description: <%= course.description %></p>
+    </div>
+    
+<%- include("./partials/footer.ejs") %>
